@@ -322,8 +322,7 @@ def parse_opt():
     """Parses command-line arguments for YOLOv5 detection, setting inference options and model configurations."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--weights", nargs="+", type=str,
-                        default=r"D:\IGRP2\yolov5\runs\train\exp3\weights\best.pt",
-                        # /tmp/pycharm_project_98/yolov5/runs/train/exp6/weights/best.pt
+                        default=r"yolov5\runs\train\exp3\weights\best.pt",
                         help="model path or triton URL")
     parser.add_argument("--source", type=str, default="http://192.168.2.1:40921",
                         help="file/dir/URL/glob/screen/0(webcam)")  # "data "http://192.168.2.1:40921"

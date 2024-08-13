@@ -14,7 +14,7 @@ Make sure your group has ```2 PC devices```, one for connecting DJI robot and th
 ### DJI device
 We have upload the pretrained model checkpoint for recognising ping pang ball, please revise the checkpoint path in ```detect.py``` then your DJI robot could recognise ping pang ball and move.
 For distance judjing, there is a threshold value for detecting the square of the yolo box, maybe you need to adjust this value for your device.
-![10a2cf10f69dd2ec390ab486be93551](https://github.com/user-attachments/assets/458860fe-48da-4a7b-9c62-6643b86837b7.jpg, =300x200)
+![10a2cf10f69dd2ec390ab486be93551](https://github.com/user-attachments/assets/458860fe-48da-4a7b-9c62-6643b86837b7, =300x200)
 
 ### Elephant Arm device
 Start ```video.py``` file as long as another device programms run, the robot arm camera will check whether there is a ball in its view through cv2 method.

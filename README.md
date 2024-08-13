@@ -8,3 +8,11 @@ If you use our code, please star our repo.
 ## ✉✉ Contact
 If you have any questions, do not hesitate to contact us!
 Email: [xiejiangwei@stu.ouc.edu.cn)(xiejiangwei@stu.ouc.edu.cn)
+
+## Introduction
+Make sure your group has ```2 PC devices```, one for connecting DJI robot and the other one for connecting elephant arm through **SSH** or **VNC**
+### DJI device
+We have upload the pretrained model checkpoint for recognising ping pang ball, please revise the checkpoint path in ```detect.py``` then your DJI robot could recognise ping pang ball and move.
+For distance judjing, there is a threshold value for detecting the square of the yolo box, maybe you need to adjust this value for your device.
+### Elephant Arm device
+Start ```video.py``` file as long as another device programms run, the robot arm camera will check whether there is a ball in its view through cv2 method.
